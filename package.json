@@ -1,0 +1,24 @@
+{
+  "name": "covid-tracker",
+  "version": "1.0.0",
+  "description": "covid 19 tracker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogra-c11/Covid-19-tracker.git"
+  },
+  "author": "chirag dogra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogra-c11/Covid-19-tracker/issues"
+  },
+  "homepage": "https://github.com/dogra-c11/Covid-19-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "novelcovid": "^2.2.0"
+  }
+}
