@@ -1,8 +1,19 @@
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        background-color: mintcream;
+    }
+</style>
+
 <h1 style="text-align: center;">Covid-19 Tracker</h1>
 
-{{#each info }}
-
-<img src="{{this.countryInfo.flag}}"></img>
-
-
+{{#each info}}
+<h2 style="text-align: center;">{{ this.country}}</h2>
+<img class="center" src="{{this.countryInfo.flag}}"></img><br>
+<div style="text-align: center;"><strong>Total cases:- {{this.cases}}</strong></div>
 {{/each}}
